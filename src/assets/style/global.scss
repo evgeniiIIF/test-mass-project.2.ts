@@ -1,0 +1,45 @@
+@import './fonts.scss';
+@import './variables.scss';
+@import './mixins.scss';
+
+
+*,
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $font-main;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+
+ul{
+  list-style: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.ibg {
+  position: relative;
+  img,
+  iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
