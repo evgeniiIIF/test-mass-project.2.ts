@@ -22,7 +22,7 @@ bun install
 
 ## Development Server
 
-Запустите проект на `http://localhost:3000` axion baseURL привязан именно к `http://localhost:3000`:
+Запустите проект на `http://localhost:3000` axios baseURL привязан именно к `http://localhost:3000`:
 
 ```bash
 # npm
