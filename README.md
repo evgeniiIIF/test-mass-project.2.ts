@@ -4,7 +4,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Setup
 
-Make sure to install the dependencies:
+Установите зависимости:
 
 ```bash
 # npm
@@ -22,7 +22,7 @@ bun install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Запустите проект на `http://localhost:3000` axion baseURL привязан именно к `http://localhost:3000`:
 
 ```bash
 # npm
